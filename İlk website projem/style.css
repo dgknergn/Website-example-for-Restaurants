@@ -1,0 +1,195 @@
+article{
+    height: 2000px;
+    width: 100%;
+}
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Georgia serif;
+}
+.üst-komple{
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+.üst-bar{
+    color:rgb(0, 0, 0);
+    background-color: #fff;
+    padding: 8px 16px;
+    box-shadow: 0 2px 5px 0 #000;
+    width: 100%;
+    overflow: hidden;
+    letter-spacing: 4px;
+}
+.blackpearl-yazi{
+    user-select: none;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+}
+.üst-yazilar-genel{
+    float: right;  
+    box-sizing: inherit;  
+}
+.üst-yazilar{
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    user-select: none;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+}
+.üst-yazilar:hover{
+    box-shadow: 10px 10px 15px 4px rgba(0, 0, 0, .4);
+    background-color: rgb(141, 141, 141);
+}
+
+.üst-kisim{
+    max-width: 1600px;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    letter-spacing: 4px;
+    display: block;
+}
+.restorant-resim{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+.hakkinda-kutu{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    justify-content:space-around ;
+}
+.hakkinda-kutucuk{
+    width: 30%;
+    line-height: 30px;
+    word-spacing: 10px;
+    float: left;
+}
+.resim-bir{
+    margin-right: 32px;
+    width: 450px;
+    float: right;
+}
+.cizgi-bir{
+    width: 90%;
+    border-color:  rgb(184, 106, 11) ;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.baslik-iki{
+    text-align: center;
+    letter-spacing: 4px;
+    font-family: 'Courier New', Courier, monospace
+}
+.menu-kutu{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin: auto;
+}
+.menü-paragraf{
+    color: rgb(126, 119, 119);
+}
+h4{
+    letter-spacing: 3px;
+}
+.hakkinda-bosluk{
+    height: 50px;
+}
+.iletisim-adres{
+    color: #607d8b;
+    font-size: 19px;
+}
+h5{
+    letter-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+.rez-kutu-bir{
+    border-right: rgb(116, 111, 111) 2px solid;
+    width: 450px;
+    margin-left: 20px;
+}
+.rez-kutu-iki{
+    border-right: rgb(116, 111, 111) 2px solid ;
+    margin-left: 10px;
+}
+.rez-kutu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.i{
+    width: 
+    75px;
+}
+.iletisim-aciklama{
+    color: #232525;
+}
+.rez-telefon{
+    font-size: 19px;
+}
+.son-kisim{
+    color: rgb(0, 0, 0);
+    background-color: #f1f1f1;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    letter-spacing: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.menü-gidis{
+    user-select: none;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+}
+.menü-gidis:hover{
+    color: rgb(48, 38, 38);
+    border-radius: 4px;
+    font-weight: bolder;
+}
+
+.harita{
+    border: solid black 3px;
+    width:400px ;
+    height: 300px;
+    margin-left: 62px;
+}
+.konum-kisim{
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar{     background-color: grey; } ::-webkit-scrollbar-thumb{     background-color: black; }

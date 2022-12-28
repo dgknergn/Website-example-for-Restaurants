@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    background-color: #3d434b;
+}
+.üst-komple{
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+.üst-bar{
+    color:#000;
+    background-color: #fff;
+    padding: 8px 16px;
+    box-shadow: 0 2px 5px 0 #000;
+    width: 100%;
+    overflow: hidden;
+    letter-spacing: 4px;
+}
+.üst-yazilar-genel{
+    float: right;  
+    box-sizing: inherit;
+}
+.üst-yazilar{
+    white-space: normal;
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    user-select: none;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+}
+.üst-yazilar:hover{
+    box-shadow: 10px 10px 15px 2px rgba(0, 0, 0, .4);
+    background-color: rgb(141, 141, 141);
+}
+.blackpearl-yazi{
+    user-select: none;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+}
+.satir-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr  ;
+    width: 100%;
+}
+.yiyecek-paragraf{
+    line-height: 21px;
+    word-spacing: 7px;
+    width: 60%;
+    color: rgb(146, 144, 144);
+}
+.menü{
+    width: 67%;
+    margin: auto;
+    background-color: #ffffff;
+    margin-top: 53px;
+    padding-top: 0;
+}
+.menü-h2{
+    background-color: #000000;
+    font-weight: 400;
+    margin-top: 20px;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 3px;
+    font-weight:inherit;
+    line-height: 30px;
+}
+
+.menü-h4{
+    background-color: #202225;
+    color: rgb(255, 255, 255);
+    width: 99.1%;
+    font-size: 25px;
+    padding: 10px 0px 10px 12px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-weight: 400;
+}
+.menü-h4:hover{
+    color: rgb(175, 145, 145);
+    font-weight:lighter;
+}
+.satir-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    width: 100%;
+}
+.yiyecek-div{
+    padding-left: 41px;
+}
+.yiyecek-div:hover{
+    color: rgb(61, 61, 61);
+    font-weight: bolder;
+}
+.satir-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    width: 100%;
+}
+.yemek-aciklamasiz{
+    height: 60px;
+}
+.yiyecek-baslik{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.yiyecek-fiyat{
+    font-weight: bolder;
+}
+
+.son-kisim{
+    color: #000;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+::-webkit-scrollbar{     background-color: rgb(160, 160, 160); } ::-webkit-scrollbar-thumb{     background-color: rgb(34, 34, 34); }
